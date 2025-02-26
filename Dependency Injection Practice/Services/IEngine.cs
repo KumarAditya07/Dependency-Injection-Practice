@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dependency_Injection_Practice.Services
 {
-    internal interface IEngine
+    public interface IEngine
     {
         void start ();
         void stop ();
