@@ -29,7 +29,7 @@ public class Program
 {
     public static void Main()
     {
-        var car = new Car(new PetrolEngine());
+        var car = new Car(new DieselEngine());
         car.Start();  // Output: Petrol engine is running...
     }
 }
